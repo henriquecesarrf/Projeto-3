@@ -72,6 +72,7 @@ export default {
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-primary-hover': 'var(--gradient-primary-hover)',
+				'gradient-background': 'var(--gradient-background)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
