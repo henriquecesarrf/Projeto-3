@@ -8,41 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* laje.ai Brand Colors - Baseado na logo */
-    --background: 214 100% 8%; /* Azul muito escuro da logo */
+    /* laje.ai Brand Colors */
+    --background: 214 22% 17%; /* Cinza chumbo base */
     --foreground: 0 0% 100%; /* Branco para texto principal */
 
-    --card: 214 100% 12%; /* Azul escuro para cards */
+    --card: 214 22% 19%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 214 100% 10%;
+    --popover: 214 22% 17%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 214 100% 50%; /* Azul elétrico #007BFF da logo */
+    --primary: 214 100% 50%; /* Azul elétrico #007BFF */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 214 100% 15%; /* Azul médio */
+    --secondary: 214 22% 22%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 214 80% 20%; /* Azul acinzentado */
-    --muted-foreground: 214 30% 70%;
+    --muted: 214 22% 25%;
+    --muted-foreground: 214 15% 65%;
 
-    --accent: 151 100% 50%; /* Verde-neon #00FF9D da logo */
-    --accent-foreground: 214 100% 8%;
+    --accent: 151 100% 50%; /* Verde-neon #00FF9D */
+    --accent-foreground: 214 22% 17%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 80% 25%; /* Azul para bordas */
-    --input: 214 100% 15%; /* Azul para inputs */
-    --ring: 151 100% 50%; /* Verde neon para foco */
+    --border: 214 22% 25%;
+    --input: 214 22% 25%;
+    --ring: 214 100% 50%;
 
     --radius: 0.5rem;
 
-    /* Gradients - Baseado nas cores da logo */
+    /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(214 100% 50%), hsl(151 100% 50%));
-    --gradient-primary-hover: linear-gradient(135deg, hsl(214 100% 55%), hsl(151 100% 55%));
-    --gradient-background: linear-gradient(135deg, hsl(214 100% 8%), hsl(214 100% 12%));
+    --gradient-primary-hover: linear-gradient(135deg, hsl(214 100% 45%), hsl(151 100% 45%));
     
     /* Custom brand colors */
     --electric-blue: 214 100% 50%;
@@ -60,26 +59,26 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Manter as mesmas cores do tema principal */
-    --background: 214 100% 8%;
+    /* Manter o mesmo esquema - já é escuro por padrão */
+    --background: 214 22% 17%;
     --foreground: 0 0% 100%;
-    --card: 214 100% 12%;
+    --card: 214 22% 19%;
     --card-foreground: 0 0% 100%;
-    --popover: 214 100% 10%;
+    --popover: 214 22% 17%;
     --popover-foreground: 0 0% 100%;
     --primary: 214 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 214 100% 15%;
+    --secondary: 214 22% 22%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 214 80% 20%;
-    --muted-foreground: 214 30% 70%;
+    --muted: 214 22% 25%;
+    --muted-foreground: 214 15% 65%;
     --accent: 151 100% 50%;
-    --accent-foreground: 214 100% 8%;
+    --accent-foreground: 214 22% 17%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
-    --border: 214 80% 25%;
-    --input: 214 100% 15%;
-    --ring: 151 100% 50%;
+    --border: 214 22% 25%;
+    --input: 214 22% 25%;
+    --ring: 214 100% 50%;
     --sidebar-background: 214 22% 15%;
     --sidebar-foreground: 0 0% 100%;
     --sidebar-primary: 214 100% 50%;

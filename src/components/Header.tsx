@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import lajeSymbol from "@/assets/laje-symbol.png";
 
 const Header = () => {
   const scrollToSection = (sectionId: string) => {
@@ -14,11 +13,10 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img 
-              src={lajeSymbol} 
-              alt="laje.ai" 
-              className="h-10 w-10"
-            />
+            <h1 className="text-2xl font-bold">
+              <span className="text-foreground">laje</span>
+              <span className="text-accent">.ai</span>
+            </h1>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

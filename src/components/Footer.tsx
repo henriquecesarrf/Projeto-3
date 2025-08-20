@@ -1,5 +1,4 @@
 import { Mail, Phone, MapPin, Linkedin, Github, Instagram } from "lucide-react";
-import lajeSymbol from "@/assets/laje-symbol.png";
 
 const Footer = () => {
   return (
@@ -8,11 +7,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <img 
-              src={lajeSymbol} 
-              alt="laje.ai" 
-              className="h-8 w-auto"
-            />
+            <h3 className="text-2xl font-bold">
+              <span className="text-foreground">laje</span>
+              <span className="text-accent">.ai</span>
+            </h3>
             <p className="text-muted-foreground leading-relaxed">
               Transformando ideias em realidade digital através de tecnologia de ponta e inovação constante.
             </p>

@@ -10,18 +10,16 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-background">
-      {/* Background overlay with logo colors */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10"></div>
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Background gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5"></div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <div className="text-center space-y-8">
-            <h1 className="text-6xl md:text-8xl font-bold leading-tight">
-              <span className="text-foreground">laje</span>
-              <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">.ai</span>
-            </h1>
-          </div>
+          <h1 className="text-6xl md:text-8xl font-bold leading-tight">
+            <span className="text-foreground">laje</span>
+            <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">.ai</span>
+          </h1>
           
           <div className="space-y-4">
             <h2 className="text-2xl md:text-3xl font-light text-muted-foreground">
