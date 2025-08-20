@@ -13,10 +13,11 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold">
-              <span className="text-foreground">laje</span>
-              <span className="text-accent">.ai</span>
-            </h1>
+            <img 
+              src="/lovable-uploads/4584cfad-0894-43c3-8131-e2eeee813e24.png" 
+              alt="laje.ai" 
+              className="h-8 w-auto"
+            />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

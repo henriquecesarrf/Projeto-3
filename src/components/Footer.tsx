@@ -7,10 +7,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">
-              <span className="text-foreground">laje</span>
-              <span className="text-accent">.ai</span>
-            </h3>
+            <img 
+              src="/lovable-uploads/4584cfad-0894-43c3-8131-e2eeee813e24.png" 
+              alt="laje.ai" 
+              className="h-8 w-auto"
+            />
             <p className="text-muted-foreground leading-relaxed">
               Transformando ideias em realidade digital através de tecnologia de ponta e inovação constante.
             </p>

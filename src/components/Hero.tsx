@@ -16,10 +16,13 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <h1 className="text-6xl md:text-8xl font-bold leading-tight">
-            <span className="text-foreground">laje</span>
-            <span className="text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">.ai</span>
-          </h1>
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/lovable-uploads/4584cfad-0894-43c3-8131-e2eeee813e24.png" 
+              alt="laje.ai" 
+              className="h-24 md:h-32 w-auto"
+            />
+          </div>
           
           <div className="space-y-4">
             <h2 className="text-2xl md:text-3xl font-light text-muted-foreground">
